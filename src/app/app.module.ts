@@ -4,9 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { ModalComponentComponent } from './componet/modal-component/modal-component.component';
+import { HomeComponent } from './pages/home/home.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalComponentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

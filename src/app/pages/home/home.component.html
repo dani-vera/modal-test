@@ -1,0 +1,9 @@
+
+  
+  <button (click)="openModal()">OPEN MODAL</button>
+
+  <app-modal-component *ngIf="showModal" 
+  [titulo]="'Este es mi modal'" 
+  (eventoCerrar)="closeModal()" >
+    </app-modal-component>
+  
